@@ -1,0 +1,14 @@
+Existem as cartas C1,C2,C3,C4,C5.
+
+Vira-se C1 e C2 e analisa-se os valores das cartas
+se C1 < C2 desvira-se as cartas
+se C1 > C2 troca-se as cartas de posição
+
+Fazer o processo de C1 com as cartas seguintes (C3 até C5)
+
+Repetir o processo com C2 em relação a C3, C4 e C5;
+
+Repetir o processo com C3 em relação a C4 e C5;
+
+Repetir o processo com C4 em relação a C5.
+
