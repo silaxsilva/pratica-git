@@ -1,0 +1,8 @@
+criar pasta: mkdir repo
+entrar no diretório: cd repo
+iniciar o git: git init --bare
+voltar ao diretorio anterior: cd ..
+criar uma cópia do diretório repo: git clone repo pratica-git-carol
+entrar no clone do diretório criado: cd pratica-git-carol
+configurar um usuário: git config user.name "carol"
+		       git confif user.email "carol-nabuco@hotmail.com"
