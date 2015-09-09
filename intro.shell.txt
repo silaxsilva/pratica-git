@@ -6,3 +6,10 @@ criar uma cópia do diretório repo: git clone repo pratica-git-carol
 entrar no clone do diretório criado: cd pratica-git-carol
 configurar um usuário: git config user.name "carol"
 		       git confif user.email "carol-nabuco@hotmail.com"
+adicionar arquivo: git add alunos.txt
+fazer commit (deixar mensagem): git commit -m "adiçao do arquivo alunos.txt"
+adicionar outro arquivo: git add intro.shell.txt 
+fazer commit (deixar mensagem) do novo arquivo adicionado: git commit -m "adiçao do arquivo intro.shell.txt"
+verificar status: git satus
+verificar log: git log
+criar arquivo bubble-sort.txt: atraves do programa mousepad 
