@@ -12,4 +12,5 @@ adicionar outro arquivo: git add intro.shell.txt
 fazer commit (deixar mensagem) do novo arquivo adicionado: git commit -m "adiçao do arquivo intro.shell.txt"
 verificar status: git satus
 verificar log: git log
-criar arquivo bubble-sort.txt: atraves do programa mousepad 
+criar arquivo bubble-sort.txt: atraves do programa mousepad
+salvar o arquivo
