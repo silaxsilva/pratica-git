@@ -23,7 +23,7 @@ usuário 1
 9. adicionar o arquivo bubble-sort: git add bubble-sort.txt
 10. fazer commit do bubble-sort.txt: git commit -m "adicao de novo arquivo 
 11. verificar se existe pendencias nos arquivos trabalhados: git status
-11. enviar o arquivo para o repositório: git origin master
+11. enviar o arquivo para o repositório: git origin push master
 
 usuário 2
 1. criar uma cópia do diretório repo: git clone repo pratica-git-silas
@@ -37,7 +37,7 @@ usuário 2
 5. adicionar o arquivo editado: git add bubble-sort.txt
 6. fazer commit do bubble-sort.txt: git commit -m "adicao da instrucao da pratica das cartas"
 7. verificar se existe pendencias nos arquivos trabalhados: git status
-8. enviar os arquivos para o repositório: git origin master
+8. enviar os arquivos para o repositório: git origin push master
 
 usuário 3
 
@@ -51,4 +51,4 @@ usuário 3
 4. editar o arquivo intro.shell com os passos finais do usuário 3: mousepad intro.shell.txt
 5. adicionar o arquivo editado: git add intro.shell.txt
 6. fazer o commit do arquivo: git commit -m "edicao do arquivo intro.shell.txt adicao dos passos finais da atividade"
-7. enviar os arquivos para o repositório: git origin master
+7. enviar os arquivos para o repositório: git push origin master
