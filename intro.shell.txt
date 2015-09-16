@@ -1,15 +1,54 @@
-criar pasta: mkdir repo
-entrar no diretório: cd repo
-iniciar o git: git init --bare
+Preparação
+1. Criar o arquivo 'intro-git.txt' no diretório atual: mousepad
+2. criar pasta: mkdir repo
+3. entrar no diretório: cd repo
+3.1 iniciar o git: git init --bare
+4. ls -F
+
+Iniciando a Prática
 voltar ao diretorio anterior: cd ..
-criar uma cópia do diretório repo: git clone repo pratica-git-carol
-entrar no clone do diretório criado: cd pratica-git-carol
-configurar um usuário: git config user.name "carol"
+
+usuário 1
+1. criar uma cópia do diretório repo: git clone repo pratica-git-carol
+2. entrar no clone do diretório criado: cd pratica-git-carol
+3.configurar um usuário: git config user.name "carol"
 		       git confif user.email "carol-nabuco@hotmail.com"
-adicionar arquivo: git add alunos.txt
-fazer commit (deixar mensagem): git commit -m "adiçao do arquivo alunos.txt"
-adicionar outro arquivo: git add intro.shell.txt 
-fazer commit (deixar mensagem) do novo arquivo adicionado: git commit -m "adiçao do arquivo intro.shell.txt"
-verificar status: git satus
-verificar log: git log
-criar arquivo bubble-sort.txt: atraves do programa mousepad 
+4. adicionar arquivo: git add alunos.txt
+5. fazer commit (deixar mensagem): git commit -m "adiçao do arquivo alunos.txt"
+6. verificar status: git satus
+   verificar log: git log
+7. adicionar outro arquivo: git add intro.shell.txt 
+   fazer commit (deixar mensagem) do novo arquivo adicionado: git commit -m "adiçao do arquivo intro.shell.txt"
+8. criar arquivo bubble-sort.txt: atraves do programa mousepad 
+9. adicionar o arquivo bubble-sort: git add bubble-sort.txt
+10. fazer commit do bubble-sort.txt: git commit -m "adicao de novo arquivo 
+11. verificar se existe pendencias nos arquivos trabalhados: git status
+11. enviar o arquivo para o repositório: git origin master
+
+usuário 2
+1. criar uma cópia do diretório repo: git clone repo pratica-git-silas
+2. entrar no clone do diretório criado: cd pratica-git-silas
+	2.1. verificar se existe arquivo na pasta: ls -F
+	2.2. verificar o status dos arquivos: git status
+	2.3. verificar os commits: git log
+3. configurar a conta do usuário: git config user.name "silax"
+				git config user.email "cartaaosilas@gmail.com"
+4. editar o arquivo bubble-sort criado anteriormente
+5. adicionar o arquivo editado: git add bubble-sort.txt
+6. fazer commit do bubble-sort.txt: git commit -m "adicao da instrucao da pratica das cartas"
+7. verificar se existe pendencias nos arquivos trabalhados: git status
+8. enviar os arquivos para o repositório: git origin master
+
+usuário 3
+
+1. criar uma cópia do diretório repo: git clone repo pratica-git-flavia
+2. entrar no clone do diretório criado: cd pratica-git-flavia
+	2.1. verificar se exitste arquivo na pasta:ls -F
+	2.2. verificar o status dos arquivos: git status
+	2.3. verificar os commits: git log
+3. configurar a conta do usuário: git config user.name "flavia"
+				git config user.email "fstreva@gmail.com
+4. editar o arquivo intro.shell com os passos finais do usuário 3: mousepad intro.shell.txt
+5. adicionar o arquivo editado: git add intro.shell.txt
+6. fazer o commit do arquivo: git commit -m "edicao do arquivo intro.shell.txt adicao dos passos finais da atividade"
+7. enviar os arquivos para o repositório: git origin master
